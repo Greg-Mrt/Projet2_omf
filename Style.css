@@ -10,5 +10,17 @@ h1{
     border: 0ch;
     padding: 10px;
     width: auto;
+    margin: auto;
 }
 
+header{
+    width: auto;
+}
+
+footer{
+    background: rgb(49, 49, 49);
+    position:absolute;
+    bottom:0px;
+    width:100%;
+    color: white;
+}
