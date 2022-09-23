@@ -3,7 +3,9 @@
 
 
 <head>
-<link rel="roboto" href="projet2_omf/roboto">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,12 +19,12 @@
 <main>
 
 <section class="localisation">
-    <p>Paris, Belleville<p>
+    <p><i class="fa-solid fa-location-dot"></i> Paris, Belleville<p>
 </section>
 
 
 <section>
-        <h1>Réservez le menu qui vous convient <i class="fa-solid fa-heart"></i></h1>
+        <h1>Réservez le menu qui vous convient</h1>
         <p class="element1">Découvrez des restaurants d'exception, séléctionnés par nos soins.</p>
     <button class="mainbutton" type="button">
     Explorer nos restaurants
@@ -31,29 +33,31 @@
 
 <section class="fonctionnement">
     <h2>Fonctionnement</h2>
+    <button class="secondbutton" type="button"> 
+        <p class="chiffre">1</p> <p><i class="fa-solid fa-mobile-screen-button"></i> Choisissez un restaurant</p>
     <button class="secondbutton" type="button">
-        Choisissez un restaurant
+        <p class="chiffre">2</p> <p><i class="fa-solid fa-list-ul"></i> Composez votre menu</p>
     <button class="secondbutton" type="button">
-        Composez votre menu
-    <button class="secondbutton" type="button">
-        Dégustez au restaurant
+        <p class="chiffre">3</p> <p><i class="fa-solid fa-store"></i> Dégustez au restaurant</p>
 </section>
 
 
 <section class="restaurants">
     <h2>Restaurants</h2>
     <article class="card">
+        <div class="nouveau">Nouveau</div>
         <img src="images/la_palette_du_gout.jpg" alt="La palette du goût">
         <div class="content">
-            <h3>La palette du goût</h3>
+            <h3>La palette du goût</h3><i class="fa-regular fa-heart"></i>
             <p>Ménilmontant</p>
         </div>
     </article>
     
     <article class="card">
+        <div class="nouveau">Nouveau</div>
         <img src="images/la_note_enchantée.jpg" alt="La note enchantée">
         <div class="content">
-            <h3>La note enchantée</h3>
+            <h3>La note enchantée</h3><i class="fa-regular fa-heart"></i>
             <p>Charonne</p>
         </div>
     </article>
@@ -61,7 +65,7 @@
      <article class="card">
         <img src="images/a_la_francaise.jpg" alt="À la française">
         <div class="content">
-            <h3>À la française</h3>
+            <h3>À la française</h3><i class="fa-regular fa-heart"></i>
             <p>Cité Rouge</p>
         </div>
     </article>
@@ -69,7 +73,7 @@
     <article class="card">
         <img src="images/le_delice_des_sens.jpg" alt="Le délice des sens">
         <div class="content">
-            <h3>Le délice des sens</h3>
+            <h3>Le délice des sens</h3><i class="fa-regular fa-heart"></i>
             <p>Folie-Méricourt</p>
         </div>
     </article>
@@ -78,12 +82,12 @@
 
 
 <footer>
-    <img src="images/ohmyfood.svg">
+    <p class="footertitle">ohmyfood<p>
     <p>
-        Proposer un restaurant
+        <i class="fa-solid fa-utensils"></i> Proposer un restaurant
     </p>
     <p>
-        Devenir partenaire
+        <i class="fa-solid fa-handshake-angle"></i> Devenir partenaire
     </p>
     <p>
         Mentions légales
