@@ -168,3 +168,9 @@ article{
 .fa-handshake-angle{
     font-size: 15px;
 }
+
+.image_menu{
+    margin: auto;
+    padding: auto;
+    object-fit: contain; 
+}
