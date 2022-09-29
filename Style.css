@@ -1,12 +1,14 @@
 body{
     width: 100%;
     margin: 0px;
+    padding: 0px;
     background-color: rgb(242, 242, 242);
     font-family: 'Roboto', sans-serif;
 }
 
 header{
     width: 100%;
+    margin: 0px;
     padding: 15px;
     background-color: white;
     box-shadow: 0px 2px 5px 0px rgb(206, 206, 206) ;
@@ -17,23 +19,19 @@ header{
 }
 
 .localisation{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width:auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
     background-color: rgb(233, 232, 232);
     font-size: 18px;
 }
 
 h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 27px;
     font-weight: 700;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 20px 50px 0px 50px;
 }
 
 h2{
@@ -52,7 +50,7 @@ h4{
     padding-left: 20px;
     text-align: center;
     font-weight:100;
-    font-size: 17px;
+    font-size: 20px;
 }
 
 .mainbutton{
@@ -71,23 +69,27 @@ h4{
     box-shadow: 2px 2px 5px 1px rgb(185, 185, 185);
 }
 
+.fonctionnement{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 20px;
+}
+
 .secondbutton{
-    display: block;
     position: relative;
     background: rgb(246, 246, 246);
     width: 300px;
     border-radius: 20px;
-    border: 0ch;
+    border: 0px;
     padding: 5px 25px 5px 25px;
     box-shadow: 2px 2px 5px 1px rgb(185, 185, 185);
-    text-align: center;
-    font-size: 15px;
     margin: auto;
-    margin-bottom: 10px;
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-.chiffre{
+.fonctionnementchiffre{
     position: absolute;
     left: -15px; top: 0px;
     background-color: #9356DC;
@@ -98,19 +100,22 @@ h4{
     padding: 5px;
 }
 
-footer{
-    background: rgb(49, 49, 49);
-    bottom:0px;
-    width:100%;
-    padding-top: 10px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    color: white;
-    font-size: 16px;
+.fonctionnementpicto{
+    position: absolute;
+    margin-left: -110px;
+    margin-top: 15px;
 }
 
-article{
-    margin: 20px;
+.fonctionnementtexte{
+    margin-left: 20px;
+    font-size: 15px;
+}
+
+.restaurants{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .card {
@@ -118,10 +123,9 @@ article{
     background-color: white;
     box-shadow: 0px 2px 5px 0px rgb(206, 206, 206);
     border-radius: 10px;
-    display: flex;
-    flex-direction:column;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    margin: 10px 0px 20px 20px;
+    display: block;
+    width: 400px;
 }
 
 .card img{
@@ -131,8 +135,17 @@ article{
     height: 200px;
 }
 
-.card p{
-    padding-left: 20px;
+.cardresto{
+    margin: 10px 0px 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    position:relative;
+}
+
+.cardville{
+    margin: 10px 0px 10px 20px;
+    font-weight: 300;
+    font-size: 18px;
 }
 
 .card h3{
@@ -153,16 +166,13 @@ article{
     font-weight: 700;
 }
 
-.fonctionnement{
-    width: 100%;
-    padding-bottom: 20px;
-    background-color: white;
-}
-
 .fa-heart{
     position: absolute;
-    font-size: 25px;
-    right: 30px; bottom: 40px;
+}
+
+.coeurmenu1{
+    font-size: 30px;
+    right: 30px; top: 4px;
 }
 
 .footertitle{
@@ -177,6 +187,9 @@ article{
 
 .fa-handshake-angle{
     font-size: 15px;
+}
+.fa-location-dot{
+    margin-right: 10px;
 }
 
 .image_menu{
@@ -229,4 +242,14 @@ article{
     margin-left: -320px;
     margin-top: 5px;
     font-size: 25px;
+}
+
+footer{
+    background: rgb(49, 49, 49);
+    bottom:0px;
+    width:100%;
+    margin-top: 30px;
+    padding:5px 0px 40px 20px;
+    color: white;
+    font-size: 16px;
 }
