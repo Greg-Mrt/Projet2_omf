@@ -19,7 +19,7 @@ header{
 }
 
 .localisation{
-    width:100%;
+    width:auto;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
@@ -67,6 +67,11 @@ h4{
     margin-bottom: 40px;
     font-size: 18px;
     box-shadow: 2px 2px 5px 1px rgb(185, 185, 185);
+}
+
+.mainbutton:hover{
+    background: linear-gradient(#ffa5e5, #a578db);
+    box-shadow: 10px 10px 5px 1px rgb(185, 185, 185);
 }
 
 .fonctionnement{
@@ -188,6 +193,10 @@ h4{
     right: 30px; top: 4px;
 }
 
+.coeurmenu1:hover{
+    background: #ffa5e5;
+}
+
 .footertitle{
     font-size: 20px;
     font-family:'Shrikhand', cursive;
@@ -285,3 +294,23 @@ span{
     width: 40px;
     margin: -15px 0px 20px 0px;
 }
+
+.loader {
+    width: 48px;
+    height: 48px;
+    border: 5px solid #FFF;
+    border-bottom-color: #ac27a8;
+    border-radius: 50%;
+    display: absolute;
+    box-sizing: border-box;
+    animation: rotation 1700ms linear;
+    }
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
