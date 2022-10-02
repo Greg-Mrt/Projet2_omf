@@ -197,8 +197,19 @@ h4{
     right: 30px; top: 4px;
 }
 
-.coeurmenu1:hover{
-    background: #ffa5e5;
+.coeurmenu2{
+    position: absolute;
+    font-size: 30.5px;
+    right: 30px; top: 4px;
+    color: transparent;
+    background-image: linear-gradient(#ffa5e5, #a578db);
+    background-clip: text;
+    -webkit-background-clip: text;
+    opacity: 0;
+}
+
+.coeurmenu2:hover{
+    opacity: 1;
 }
 
 .footertitle{
