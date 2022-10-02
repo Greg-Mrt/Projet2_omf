@@ -18,6 +18,10 @@ header{
     position: relative;
 }
 
+main{
+    width: 100%;
+}
+
 .localisation{
     width:auto;
     padding-top: 20px;
@@ -253,6 +257,58 @@ h4{
     padding: 15px 15px 15px 15px;
     margin: 0px 0px 15px 0px;
     box-shadow: 2px 2px 5px 1px rgb(216, 216, 216);
+    animation: appear 2s;
+    animation-fill-mode: both;
+}
+
+.delay1{
+    animation-delay: 0.2s;
+}
+
+.delay2{
+    animation-delay: 0.4s;
+}
+
+.delay3{
+    animation-delay: 0.6s;
+}
+
+.delay4{
+    animation-delay: 0.8s;
+}
+
+.delay5{
+    animation-delay: 1s;
+}
+
+.delay6{
+    animation-delay: 1.2s;
+}
+
+.delay7{
+    animation-delay: 1.4s;
+}
+
+.delay8{
+    animation-delay: 1.6s;
+}
+
+.delay9{
+    animation-delay: 1.8s;
+}
+
+.delay10{
+    animation-delay: 2s;
+}
+
+
+@keyframes appear{
+    0%{
+        transform: scale(0);
+    }
+    100%{
+        transform: scale(1);
+    }
 }
 
 .lite{
