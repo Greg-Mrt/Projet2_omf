@@ -216,6 +216,7 @@ h4{
 
 .coeurmenu2:hover{
     opacity: 1;
+    transition: all 600ms ;
 }
 
 .footertitle{
@@ -268,15 +269,72 @@ h4{
 }
 
 .menuplat{
-    display: block;
     background-color: white;
-    border-radius: 20px;
-    padding: 15px 15px 15px 15px;
+    border-radius: 15px;
     margin: 0px 0px 15px 0px;
     box-shadow: 2px 2px 5px 1px rgb(216, 216, 216);
     animation: appear 2s;
     animation-fill-mode: both;
 }
+
+.menuelements{
+    display: flex;
+    overflow: hidden;
+}
+
+.menutitres{
+    padding: 10px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.menulite{
+    font-size: 15px;
+    font-weight: 100;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.menumontant{
+    margin-left: auto;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.menucheck{
+    display: grid;
+    place-items: center;
+    background-color: #99E2D0;
+    border-radius: 0px 15px 15px 0px;
+    margin-right: -50px;
+    width: 50px;    
+}
+
+.menuelements:hover .menucheck{
+    margin-right: 0px;
+    transition: all 400ms;
+}
+
+.fa-circle-check{
+    color: white;
+}
+
+.menuelements:hover .fa-circle-check{
+    animation: quarterspin 1000ms ease;
+}
+
+@keyframes quarterspin{
+    0%{
+        rotate: -150deg;
+    }
+    100%{
+        rotate: 0deg;
+    }
+}
+
 
 .delay1{
     animation-delay: 0.2s;
@@ -326,17 +384,6 @@ h4{
     100%{
         transform: scale(1);
     }
-}
-
-.lite{
-    margin: 2px 0px 2px 0px;
-    font-size: 15px;
-    font-weight: 100;
-}
-
-.montant{
-    position: absolute;
-    margin: -20px 0px 0px 300px;
 }
 
 .fa-arrow-left{
