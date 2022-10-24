@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 
 <head>
+<meta charset="utf-8">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&family=Shrikhand&display=swap" rel="stylesheet">
 <link href="style.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Oh my food</title>
 </head>
 
 <body>
@@ -16,14 +18,14 @@
     </div>
 
     <header>
-    <img src="images/ohmyfood.svg">
+    <img src="images/ohmyfood.svg" alt="Logo">
 </header>
 
 <main>
 
-<section class="localisation">
+<div class="localisation">
     <div><i class="fa-solid fa-location-dot"></i>Paris, Belleville</div>
-</section>
+</div>
 
 
 <div>
@@ -36,19 +38,26 @@
 
 <section class="fonctionnement">
     <h2>Fonctionnement</h2>
-    <button class="secondbutton" type="button"> 
-        <p class="fonctionnementchiffre">1</p>  <i class="fa-solid fa-mobile-screen-button fonctionnementpicto"></i><p class="fonctionnementtexte">Choisissez un restaurant</p>
-    <button class="secondbutton" type="button">
-        <p class="fonctionnementchiffre">2</p> <i class="fa-solid fa-list-ul fonctionnementpicto"></i> <p class="fonctionnementtexte">Composez votre menu</p>
-    <button class="troisiemebutton" type="button">
-        <p class="fonctionnementchiffre">3</p> <i class="fa-solid fa-store fonctionnementpicto"></i> <p class="fonctionnementtexte">Dégustez au restaurant</p>
+        <div class="secondbutton"> 
+            <p class="fonctionnementchiffre">1</p>  <i class="fa-solid fa-mobile-screen-button fonctionnementpicto"></i><p class="fonctionnementtexte">Choisissez un restaurant</p>
+        </div>
+
+        <div class="secondbutton">
+            <p class="fonctionnementchiffre">2</p> <i class="fa-solid fa-list-ul fonctionnementpicto"></i> <p class="fonctionnementtexte">Composez votre menu</p>
+        </div>
+        
+        <div class="troisiemebutton">
+            <p class="fonctionnementchiffre">3</p> <i class="fa-solid fa-store fonctionnementpicto"></i> <p class="fonctionnementtexte">Dégustez au restaurant</p>
+        </div>    
 </section>
 
 <h2>Restaurants</h2>
-<section class="restaurants">
-    <article class="card">
+
+<div class="restaurants">
+    
+    <div class="card">
         <div class="nouveau">Nouveau</div>
-        <a href="palette du gout.html"><img src="images/la_palette_du_gout.jpg" alt="La palette du goût"></a>
+        <a href="palette_du_gout.html"><img src="images/la_palette_du_gout.jpg" alt="La palette du goût"></a>
         <div class="content">
             <div class="cardresto">La palette du goût
                 <i class="fa-regular fa-heart coeurmenu1"></i>
@@ -56,11 +65,11 @@
             </div>
             <div class="cardville">Ménilmontant</div>
         </div>
-    </article>
+    </div>
     
-    <article class="card">
+    <div class="card">
         <div class="nouveau">Nouveau</div>
-        <a href="note enchantee.html"><img src="images/la_note_enchantée.jpg" alt="La note enchantée"></a>
+        <a href="note_enchantee.html"><img src="images/la_note_enchantée.jpg" alt="La note enchantée"></a>
         <div class="content">
             <div class="cardresto">La note enchantée
                 <i class="fa-regular fa-heart coeurmenu1"></i>
@@ -68,10 +77,10 @@
             </div>
             <div class="cardville">Charonne</div>
         </div>
-    </article>
+    </div>
             
-     <article class="card">
-        <a href="a la française.html"><img src="images/a_la_francaise.jpg" alt="À la française"></a>
+     <div class="card">
+        <a href="a_la_française.html"><img src="images/a_la_francaise.jpg" alt="À la française"></a>
         <div class="content">
             <div class="cardresto">À la française
                 <i class="fa-regular fa-heart coeurmenu1"></i>
@@ -79,10 +88,10 @@
             </div>
             <div class="cardville">Cité Rouge</div>
         </div>
-    </article>
+    </div>
 
-    <article class="card">
-        <a href="le delice des sens.html"><img src="images/le_delice_des_sens.jpg" alt="Le délice des sens"></a>
+    <div class="card">
+        <a href="le_delice_des_sens.html"><img src="images/le_delice_des_sens.jpg" alt="Le délice des sens"></a>
         <div class="content">
             <div class="cardresto">Le délice des sens
                 <i class="fa-regular fa-heart coeurmenu1"></i>
@@ -90,8 +99,10 @@
             </div>
             <div class="cardville">Folie-Méricourt</div>
         </div>
-    </article>
-</section>
+    </div>
+
+</div>
+
 </main>
 
 <footer>

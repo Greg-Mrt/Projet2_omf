@@ -98,10 +98,10 @@ h4{
 .secondbutton{
     position: relative;
     background: rgb(246, 246, 246);
-    width: 300px;
+    width: 250px;
     border-radius: 20px;
     border: 0px;
-    padding: 5px 25px 5px 25px;
+    padding: 5px 10px 5px 10px;
     box-shadow: 2px 2px 5px 1px rgb(185, 185, 185);
     margin: auto;
     margin-bottom: 20px;
@@ -110,10 +110,10 @@ h4{
 .troisiemebutton{
     position: relative;
     background: rgb(235, 234, 250);
-    width: 300px;
+    width: 250px;
     border-radius: 20px;
     border: 0px;
-    padding: 5px 25px 5px 25px;
+    padding: 5px 10px 5px 10px;
     box-shadow: 2px 2px 5px 1px rgb(185, 185, 185);
     margin: auto;
     margin-bottom: 20px;
@@ -121,6 +121,9 @@ h4{
 
 .fonctionnementchiffre{
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     left: -15px; top: 0px;
     background-color: #9356DC;
     height: 18px;
@@ -136,19 +139,19 @@ h4{
 
 .fonctionnementpicto{
     position: absolute;
-    margin-left: -110px;
+    margin-left: 25px;
     margin-top: 15px;
 }
 
 .fonctionnementtexte{
-    margin-left: 20px;
+    margin-left: 60px;
     font-size: 15px;
 }
 
 .restaurants{
     display: flex;
     flex-direction:row;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin: 0;
     padding: 0;
@@ -182,6 +185,7 @@ h4{
         justify-content: space-around;
         flex-wrap: wrap;
     }
+
 }
 
 .card img{
