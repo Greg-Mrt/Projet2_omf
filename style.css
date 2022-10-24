@@ -236,10 +236,7 @@ h4{
     position: absolute;
     font-size: 30.5px;
     right: 30px; top: 4px;
-    color: transparent;
-    background-image: linear-gradient(#ffa5e5, #a578db);
-    background-clip: text;
-    -webkit-background-clip: text;
+    color: #d060d2;
     opacity: 0;
 }
 
@@ -357,10 +354,10 @@ h4{
 
 @keyframes quarterspin{
     0%{
-        rotate: -150deg;
+        transform: rotate(-150deg);
     }
     100%{
-        rotate: 0deg;
+        transform: rotate(0deg);
     }
 }
 
@@ -466,9 +463,9 @@ footer{
 
     @keyframes spin{
         0%{
-            rotate: 0deg;
+            transform: rotate(0deg);
         }
         100%{
-            rotate: 360deg;
+            transform: rotate(360deg);
         }
     }
