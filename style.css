@@ -19,6 +19,11 @@ header{
     justify-content: center;
 }
 
+a{
+    color:white;
+    text-decoration: none;
+}
+
 .fa-arrow-left{
     position: absolute;
     margin-left: -80px;
@@ -196,14 +201,14 @@ h4{
 }
 
 .cardresto{
-    margin: 10px 0px 10px 20px;
+    margin: 10px 0px 5px 20px;
     font-weight: 700;
     font-size: 20px;
     position:relative;
 }
 
 .cardville{
-    margin: 10px 0px 10px 20px;
+    margin: 5px 0px 10px 20px;
     font-weight: 300;
     font-size: 18px;
 }
@@ -216,13 +221,13 @@ h4{
 
 .nouveau{
     position: absolute;
-    top: 10px; right: 10px;
+    top: 15px; right: 15px;
     background-color:#99E2D0;
     color: #007b5c;
-    border-radius: 2px;
-    padding: 5px;
+    border-radius: 3px;
+    padding: 7px 11px 7px 11px;
     text-align: center;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: 700;
 }
 
@@ -241,6 +246,25 @@ h4{
 }
 
 .coeurmenu2:hover{
+    opacity: 1;
+    transition: all 600ms ;
+}
+
+.coeurmenu3{
+    position: absolute;
+    font-size: 30px;
+    right: 30px; top: 45px;
+}
+
+.coeurmenu4{
+    position: absolute;
+    font-size: 30.5px;
+    right: 30px; top: 45px;
+    color: #d060d2;
+    opacity: 0;
+}
+
+.coeurmenu4:hover{
     opacity: 1;
     transition: all 600ms ;
 }
